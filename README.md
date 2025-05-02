@@ -59,10 +59,12 @@ Unistock was developed as part of a major project for our graduation. The projec
 ## Usage
 
 1. Start the development server:
+
    ```bash
    php artisan serve
    ```
 2. In other terminal, start the frontend dev server:
+
     ```bash
     npm run dev
     ```
