@@ -1,92 +1,99 @@
-# Unistock
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Completed-blue?style=flat-square" alt="Status"/>
+  <img src="https://img.shields.io/github/license/GabrielNLima/ProjetoIntegrador-III?style=flat-square&color=blue" alt="License"/>
+</p>
 
-O Unistock é uma aplicação web de página única (SPA - Single Page Application) construída com Laravel, Vue.js, Inertia.js e Tailwind CSS. Esta plataforma foi desenvolvida como um projeto durante nossa graduação na Unicentro e é um sistema de gerenciamento de estoque simples e eficiente que ajuda pequenas e médias empresas a gerenciar seu estoque.
+# 📦 Unistock - Inventory Management System
 
----
-
-## Histórico do Projeto
-
-O Unistock foi desenvolvido como parte de um projeto principal para nossa graduação. O projeto foi feito em dupla por nós, Gabriel Marochi Schmidt e Gabriel do Nascimento de Lima, e representa o ápice de nossos estudos e nossa paixão compartilhada pelo desenvolvimento de software. Juntos, projetamos e implementamos uma solução para abordar desafios do mundo real no gerenciamento de estoque, incorporando tecnologias de ponta e boas práticas.
-
----
-
-## Tecnologias Utilizadas (Tech Stack)
-
-- **Backend**: Laravel 10
-- **Frontend**: Vue 3, Tailwind CSS, Element Plus, Flowbite
-- **Manipulação de SPA**: Inertia.js
-- **Autenticação**: Laravel Breeze
-- **Banco de Dados**: PostgreSQL
-- **Ferramentas**: Composer, NPM, Vite
+Unistock is a Single Page Application (SPA) built with Laravel, Vue.js, Inertia.js, and Tailwind CSS. This platform was developed as a university project and serves as a simple and efficient inventory management system to help small and medium-sized businesses manage their stock.
 
 ---
 
-## Funcionalidades
+## 📜 Project History
 
-- **Gerenciamento de Estoque**: Adicione, edite, remova e monitore itens do estoque com facilidade, incluindo quantidade, categoria e localização.
-- **Gerenciamento de Fornecedores**: Cadastre, edite e gerencie dados de fornecedores, vinculando-os a itens de estoque específicos.
-- **Autenticação e Autorização de Usuários**: Login seguro utilizando Laravel Breeze e *policies* (políticas de acesso).
-- **Interface de Usuário Moderna**: Construída com Vue 3, Tailwind CSS, Element Plus e Flowbite para uma interface limpa e responsiva.
-- **Integração com Inertia.js**: Experiência de aplicação de página única (SPA) fluida, sem a necessidade de construir uma API separada.
-- **Design Responsivo**: Otimizado para uso em desktops, tablets e celulares.
-- **Seeders e Factories**: Popule rapidamente o banco de dados para desenvolvimento e testes usando *seeders* e *factories*.
+Unistock was developed as part of a major project for our undergraduate degree at UNICENTRO. The project was created by me, Gabriel Marochi Schmidt, and Gabriel do Nascimento de Lima, and it represents the culmination of our studies and our shared passion for software development. Together, we designed and implemented a solution to address real-world challenges in inventory management, incorporating modern technologies and best practices.
 
 ---
 
-## Instalação
+## 🛠️ Tech Stack
 
-1.  Clone o repositório:
+- **Backend:** Laravel 10
+- **Frontend:** Vue 3, Tailwind CSS, Element Plus, Flowbite
+- **SPA Handling:** Inertia.js
+- **Database:** PostgreSQL
+- **Tooling:** Vite, Composer, NPM
+
+[![My Skills](https://skillicons.dev/icons?i=laravel,php,vue,js,tailwind,postgres,vite,npm)](https://skillicons.dev)
+
+
+---
+
+## ✨ Features
+
+- ✅ **Inventory Management**: Easily add, edit, remove, and monitor stock items, including quantity, category, and location.
+- ✅ **Supplier Management**: Register, edit, and manage supplier data, linking them to specific stock items.
+- ✅ **User Authentication & Authorization**: Secure login using Laravel Breeze and access policies.
+- ✅ **Modern User Interface**: Built with Vue 3, Tailwind CSS, Element Plus, and Flowbite for a clean and responsive UI.
+- ✅ **Inertia.js Integration**: A fluid Single Page Application (SPA) experience without the need to build a separate API.
+- ✅ **Responsive Design**: Optimized for use on desktops, tablets, and mobile phones.
+- ✅ **Seeders & Factories**: Quickly populate the database for development and testing using seeders and factories.
+
+---
+
+## 🚀 Getting Started
+
+### Installation
+
+1.  Clone the repository:
     ```bash
     git clone [https://github.com/GabrielNLima/ProjetoIntegrador-III.git](https://github.com/GabrielNLima/ProjetoIntegrador-III.git)
     ```
-2.  Navegue até o diretório do projeto:
+2.  Navigate to the project directory:
     ```bash
     cd ProjetoIntegrador-III
     ```
-3.  Instale as dependências:
+3.  Install dependencies:
     ```bash
     composer install
     npm install
     ```
-4.  Configure as variáveis de ambiente:
+4.  Set up environment variables:
     ```bash
     cp .env.example .env
     ```
-    Atualize o arquivo `.env` com as configurações do seu banco de dados e outras informações necessárias.
+    Update the `.env` file with your database settings and other necessary information.
 
-5.  Gere a chave da aplicação:
+5.  Generate the application key:
     ```bash
     php artisan key:generate
     ```
-6.  Execute as migrações do banco de dados:
+6.  Run the database migrations:
     ```bash
     php artisan migrate
     ```
 
----
+### Usage
 
-## Uso
-
-1.  Inicie o servidor de desenvolvimento:
-   
+1.  Start the development server:
+    
     ```bash
     php artisan serve
     ```
-2.  Em outro terminal, inicie o servidor de desenvolvimento do frontend:
-   
+2.  In another terminal, start the frontend development server:
+    
     ```bash
     npm run dev
     ```
-3.  Acesse a aplicação em `http://localhost:8000`.
+3.  Access the application at `http://localhost:8000`.
 
 ---
 
-## Contribuições
+## 🤝 Contributing
 
-Contribuições são bem-vindas! Por favor, siga o [guia de contribuição](https://laravel.com/docs/contributions) e adira ao [código de conduta](https://laravel.com/docs/contributions#code-of-conduct).
+Contributions are welcome! Please follow the [contribution guide](https://laravel.com/docs/contributions) and adhere to the [code of conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
 ---
 
-## Licença
+## 📄 License
 
-Este projeto é um software de código aberto licenciado sob a [licença MIT](https://opensource.org/licenses/MIT).
+This project is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT). See the [LICENSE](LICENSE) file for more details.
